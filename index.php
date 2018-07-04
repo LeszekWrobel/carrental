@@ -77,21 +77,21 @@
           <img class="d-block w-100" src="img/img1.jpg" alt="First slide">
           <div class="carousel-caption d-none d-md-block">
             <h5>Wypożyczalnia ekskluzywnych aut</h5>
-            <p>marka</p>
+            <p>VOLVO</p>
           </div>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="img/img2.jpg" alt="Second slide">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Wypożyczalnia ekskluzywnych aut</h5>
-            <p>marka</p>
+            <h5>Mamy wszystkie marki</h5>
+            <p>BMW</p>
           </div>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="img/img3.jpg" alt="Third slide">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Wypożyczalnia ekskluzywnych aut</h5>
-            <p>marka</p>
+            <h5>Wypożycz sobie które zechcesz</h5>
+            <p>Audi</p>
           </div>
         </div>
       </div>
@@ -152,6 +152,18 @@
 </div>
 <!-- container end -->
 <hr>
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+    </div>
+  </div>
+</form>
   <h1 style="margin: 50px auto;
     text-align: center;">Pozostała - dowolna treść strony</h1>
     <!-- Optional JavaScript -->
