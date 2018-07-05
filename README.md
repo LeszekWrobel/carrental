@@ -1,5 +1,4 @@
-# wyp
-Car Rental
+CarRental
 <img src="img/carrental.png"><br />
 
 
