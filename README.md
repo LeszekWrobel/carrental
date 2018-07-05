@@ -1,3 +1,5 @@
 # wyp
 Car Rental
-<src="img/carrental.png">
+<img src="img/carrental.png"><br />
+
+
