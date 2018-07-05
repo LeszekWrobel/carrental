@@ -12,7 +12,7 @@
     <title>Wypożyczalnia samochodówarning</title>
   </head>
   <body>
-    <h1>Car Rental</h1>
+    <h1>CarRental</h1>
     <!-- <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
       <!-- Navbar content -->
     <!-- </nav> -->
@@ -129,16 +129,16 @@
 <!-- check box start-->
             <div class="form-check form-check">
               <h6>Wybierz opcje dodatkowe:</h6>
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-              <label class="form-check-label" for="inlineCheckbox1">Fotelik dziecięcy</label>
+              <input class="form-check-input" type="checkbox" id="checkbox1" value="option1">
+              <label class="form-check-label" for="checkbox1">Fotelik dziecięcy</label>
             </div>
             <div class="form-check form-check">
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-              <label class="form-check-label" for="inlineCheckbox2">Hak holowniczy</label>
+              <input class="form-check-input" type="checkbox" id="checkbox2" value="option2">
+              <label class="form-check-label" for="checkbox2">Hak holowniczy</label>
             </div>
             <div class="form-check form-check mb-3">
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-              <label class="form-check-label" for="inlineCheckbox3">Bagażnik na rowery</label>
+              <input class="form-check-input" type="checkbox" id="checkbox3" value="option3">
+              <label class="form-check-label" for="checkbox3">Bagażnik na rowery</label>
             </div>
 <!-- check box stop -->
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Oblicz cenę</button>
@@ -160,11 +160,22 @@
       </div>
       <div class="modal-body">
         <p><h4>Wybrałeś auto marki ...... na okres .... dni.</h4></p>
-        <p><h5>Opcje dodatkowe :</h5></p>
-      <p>  Fotelik dziecięcy<br />
-          Bagażnik na rowery<br /></p>
+<!-- justify-content-start -->
+        <div class="container">
+          <div class="row justify-content-start">
+            <div class="col-6">
+                <p><h5>Opcje dodatkowe :</h5></p>
+            </div>
+          </div>
+          <div class="row justify-content-around">
+            <div class="col-6">
+              <p>  Fotelik dziecięcy<br />
+                Bagażnik na rowery<br /></p>
+            </div>
+          </div>
+        </div>
+<!-- justify-content and -->
           <h4>Łączna cena to : <b>1542</b> PLN</h4>
-
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-success">Zapłać</button>
@@ -229,11 +240,11 @@
 <form>
   <div class="form-row">
     <div class="form-group col-md-6">
-      <label for="inputEmail4">Email</label>
+      <!-- <label for="inputEmail4">Email</label> -->
       <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
     </div>
     <div class="form-group col-md-6">
-      <label for="inputPassword4">Password</label>
+      <!-- <label for="inputPassword4">Password</label> -->
       <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
     </div>
   </div>
