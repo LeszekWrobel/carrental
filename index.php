@@ -167,8 +167,8 @@
 
       </div>
       <div class="modal-footer">
+        <button type="button" class="btn btn-success">Zapłać</button>
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
-        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
       </div>
     </div>
   </div>
@@ -195,6 +195,19 @@
       <p>Przykładowa treść maila z powiadomieniem o dokonaniu zamówienia auta wysyłana automatycznie
       na maila do firmy i klienta z przkierowaniem lub nie na kolejną podstronę. Np na stronę do logowania. <br />
     Można to oczywiście dodatkowo dowolnie rozbudować i wykorzystać. </p>
+    <form>
+  <div class="form-row">
+    <div class="col-7">
+      <input type="text" class="form-control" placeholder="Adres">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Miasto">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Kod">
+    </div>
+  </div>
+</form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
