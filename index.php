@@ -138,11 +138,72 @@
             </div>
             <div class="form-check form-check mb-3">
               <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-              <label class="form-check-label" for="inlineCheckbox3">Bagaznik na rowery</label>
+              <label class="form-check-label" for="inlineCheckbox3">Bagażnik na rowery</label>
             </div>
 <!-- check box stop -->
-            <button type="button" class="btn btn-primary">Oblicz cenę</button>
-            <button type="button" class="btn btn-warning">Zamów auto</button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Oblicz cenę</button>
+  <!-- modal oblicz -->
+  <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Oblicz cenę</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p><h4>Wybrałeś auto marki ...... na okres .... dni.</h4></p>
+        <p><h5>Opcje dodatkowe :</h5></p>
+      <p>  Fotelik dziecięcy<br />
+          Bagażnik na rowery<br /></p>
+          <h4>Łączna cena to : <b>1542</b> PLN</h4>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal oblicz end -->
+      <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal2">Zamów auto</button>
+  <!-- modal zamów start  -->
+  <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" >
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Powiadomienie</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <p>Przykładowa treść maila z powiadomieniem o dokonaniu zamówienia auta wysyłana automatycznie
+      na maila do firmy i klienta z przkierowaniem lub nie na kolejną podstronę. Np na stronę do logowania. <br />
+    Można to oczywiście dodatkowo dowolnie rozbudować i wykorzystać. </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
+        <button type="button" class="btn btn-primary">Wyslij gdzieś</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal zamów end -->
         </div>
       </form>
 
